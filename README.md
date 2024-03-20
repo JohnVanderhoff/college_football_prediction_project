@@ -3,4 +3,4 @@ Github for the 2024 Erdos Institute Data Science project: College Football outco
 
 
 ## Project Timeline
-#### Test
+Project Began on 3/11, planned to complete on 4/26
