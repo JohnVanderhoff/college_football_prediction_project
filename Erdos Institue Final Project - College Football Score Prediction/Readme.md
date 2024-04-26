@@ -27,8 +27,7 @@ Model 2 we only utilized classical regression approaches. This is because we got
 Model 3 started with classical regression approaches, with the best performing model we developed being the Lasso model with cross validation, having a mean absolute error on the score of ~9.8 points. This is rather high, with the model correctly predicting the winner only approximately 71.3% of the time. We noted that the distribution of the predicted scores had the same overall shape as the distribution of the actual scores, but was more compressed towards the average. This made us hypothesize that the linear relationships predicted via the model were insufficient for dealing with games at more extreme score ranges. As a result, we implemented the deep learning model described earlier. This model achieved much better results, with a mean absolute error on the score of ~3.45 points. This model correctly predicted the winner approximately 90.5% of the time. According to <a href="https://philsteele.com/how-often-to-underdogs-win-outright/">Phil Steele's underdog analysis</a>, the favorites based on the Las Vegas sportsbooks only win around 76.7% of the time, so our model is outperforming this significantly. See the figure below:
 
 <figure>
-  <img src="![image](https://github.com/JohnVanderhoff/college_football_prediction_project/assets/25011329/0e48ed62-6141-4cd2-afc2-3c0bcdafe50d)
-" alt="True scores and predicted scores" style="width:100%">
+  <img src="real scores vs predicted scores.png" alt="True scores and predicted scores" style="width:100%">
   <figcaption>A plot of the scores which occurred in a game and the predicted scores given by our LSTM model for model type 3.</figcaption>
 </figure>
 
